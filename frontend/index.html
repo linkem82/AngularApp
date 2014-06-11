@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app='store'>
+	<head>
+		<meta charset="US-ASCII">
+		<title>Angular.js</title>	
+		<link href="css/bootstrap.css" media="screen" rel="stylesheet" />
+		<link href="css/bootstrap.css.map" media="screen" rel="stylesheet" />
+		<script type="text/javascript" src="js/libs/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="js/libs/handlebars-1.1.2.js"></script>
+		<script type="text/javascript" src="js/libs/angular.js"></script>
+		<script type="text/javascript" src="js/libs/bootstrap.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/products.js"></script>
+	</head>
+	<body ng-controller="StoreController as store">
+		<div class="container-fluid">
+			<!-- Products list-->
+			<ul class="list-group" >
+				<li class="list-group-item" ng-hide="product.soldOut" ng-repeat="product in store.products | orderBy:'price'">
+					<h3><product-title></product-title></h3>
+					<button class="btn btn-default" ng-show="product.canPurchase">Add to cart</button>
+					<product-panel>						
+						
+					</product-panel>
+				</li>
+			</ul>			
+		</div>
+	</body>
+</html>

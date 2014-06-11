@@ -1,0 +1,60 @@
+[
+	{
+		"name": "Dodecahedron",
+		"price": 10,
+		"description": "...",
+		"canPurchase": true,
+		"soldOut": false,
+		"images":[
+			{
+				"full": "",
+				"thumb": ""
+			},
+			{
+				"full": "",
+				"thumb": ""
+			}
+		],
+		"reviews": [
+			{
+				"stars": 4,
+				"body": "Great product",
+				"author": "tim@hater.com"
+			},
+			{
+				"stars": 3,
+				"body": "Medium product",
+				"author": "rob@hater.com"
+			}
+		]
+	},
+	{
+		"name": "Penthagonal gem",
+		"price": 3.95,
+		"description": "...",
+		"canPurchase": true,
+		"soldOut": false,
+		"images":[
+			{
+				"full": "",
+				"thumb": ""
+			},
+			{
+				"full": "",
+				"thumb": ""
+			}
+		],
+		"reviews": [
+			{
+				"stars": 3,
+				"body": "Great product",
+				"author": "al@hater.com"
+			},
+			{
+				"stars": 3,
+				"body": "Medium product",
+				"author": "mel@hater.com"
+			}
+		]
+	}
+]
